@@ -22,7 +22,7 @@ class CustomListcardView extends StatelessWidget {
             padding: EdgeInsets.all(10),
            decoration: BoxDecoration(borderRadius: BorderRadius.circular(18),
            color: Colors.white,),
-            child:Icon(icon?? Icons.music_note,size: 50,color: Colors.grey,))
+            child:Icon(icon?? Icons.music_note,size: 50,color:icon==null? Colors.grey : Colors.amber,))
           ,SizedBox(width:10,),
            Column(
             mainAxisAlignment: MainAxisAlignment.start,

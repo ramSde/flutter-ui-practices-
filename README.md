@@ -24,3 +24,7 @@ Here are some screenshots of the application:
 
 ### Details Screen
 ![Details Screen](assets/2.png)
+
+### Details Screen
+![another Screen](assets/3.png)
+
