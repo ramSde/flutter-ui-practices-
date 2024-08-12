@@ -15,7 +15,7 @@ class _MyCardViewState extends State<MyCardView> {
   Widget build(BuildContext context) {
     return Container(
      
-      width: MediaQuery.of(context).size.width / 1.4,
+      width: MediaQuery.of(context).size.width / 1.6,
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: Colors.orange,

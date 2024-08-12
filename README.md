@@ -20,7 +20,7 @@ samples, guidance on mobile development, and a full API reference.
 Here are some screenshots of the application:
 
 ### Home Screen
-![Home Screen](assets/1.png)
+![Home Screen](assets/3.png)
 
 ### Details Screen
 ![Details Screen](assets/2.png)
