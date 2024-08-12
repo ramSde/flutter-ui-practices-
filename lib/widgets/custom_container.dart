@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MyCardView extends StatefulWidget {
-  const MyCardView({super.key});
+  Color? color;
+   MyCardView({super.key,this.color});
 
   @override
   State<MyCardView> createState() => _MyCardViewState();
@@ -15,10 +16,10 @@ class _MyCardViewState extends State<MyCardView> {
   Widget build(BuildContext context) {
     return Container(
      
-      width: MediaQuery.of(context).size.width / 1.6,
+      width: MediaQuery.of(context).size.width / 1.8,
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: Colors.orange,
+        color: widget.color ?? Colors.orange,
         borderRadius: BorderRadius.circular(15),
       ),
       child: Column(
@@ -40,7 +41,7 @@ class _MyCardViewState extends State<MyCardView> {
           ),
           const SizedBox(height: 10),
           _buildCleanSlider(),
-          const SizedBox(height: 10),
+        
         ],
       ),
     );
